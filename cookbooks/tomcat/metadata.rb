@@ -1,20 +1,17 @@
-name 'tomcat'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures tomcat'
-long_description 'Installs/Configures tomcat'
-version '0.1.0'
+name             'tomcat'
+maintainer       'Chef Software, Inc.'
+maintainer_email 'cookbooks@chef.io'
+license          'Apache-2.0'
+description      'Installs Apache Tomcat and manages the service'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '2.5.2'
+
+depends 'compat_resource', '>= 12.16'
+
+%w(ubuntu debian redhat centos suse opensuse opensuseleap scientific oracle amazon zlinux).each do |os|
+  supports os
+end
+
+source_url 'https://github.com/chef-cookbooks/tomcat'
+issues_url 'https://github.com/chef-cookbooks/tomcat/issues'
 chef_version '>= 12.1' if respond_to?(:chef_version)
-
-# The `issues_url` points to the location where issues for this cookbook are
-# tracked.  A `View Issues` link will be displayed on this cookbook's page when
-# uploaded to a Supermarket.
-#
-# issues_url 'https://github.com/<insert_org_here>/tomcat/issues'
-
-# The `source_url` points to the development repository for this cookbook.  A
-# `View Source` link will be displayed on this cookbook's page when uploaded to
-# a Supermarket.
-#
-# source_url 'https://github.com/<insert_org_here>/tomcat'
