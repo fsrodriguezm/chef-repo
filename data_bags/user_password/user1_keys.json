@@ -1,0 +1,13 @@
+{
+  "id": "user1_keys",
+  "admins": [
+    "frodriguez"
+  ],
+  "clients": [
+    "node1"
+  ],
+  "search_query": "*:*",
+  "mode": "default",
+  "node1": "LKBX14T0FrVv/l2wlMqd0Xia4gxIqhgBvXFuXqqxqu4XvNQcMNi0+Mb+WIN0\n22HCKmw+pPpJMSVNleMO8WkDMOB6HcpMaDMjxFHoHxSjCxRs6/pv27zRyPMA\nSvf8HVN/Ct87d9ivkIdWcGjLuKj4JKpwsLnQ761/nQwzTHL/gUegEaiNY8lI\nuWFSBPyaC3wF0Qdj4VstAknXUUASJYIe+x6OXselXVqPbab3zf7+BZ6AyU1s\n3ALeW0ztslMEXzutRy8nFN0uF+x3dRW/qeyTApBvGbc6N/3uNgPidc6mg388\nhws9GgaEgsgegSEuzjq0pLPdQ+8rtCgePmtANFQ2dw==\n",
+  "frodriguez": "kCHULBldUoSqCOktGQWcpah+zRsPp6dZlT0zC86bfTaHgvMSAHmMvFMGiQq9\njgpRI9zu1Fc2nmFThZ0tApn5GuqRbDXd4z7a5sxtfn4ekb/CBNml9r3yGBY2\nT+W9glqvEHspMnifOsKB9HE0qYCYh12ET3AC/SLNYg5xbqjZ6QqhHqoh4Afl\nAWkBfdqGnX8k5Pi1gv1MiRiA0EHI+MtyYBlVNwq+QkuM3vZbhuzM5h4AEVYn\nt0a8nS9ZJWsBnXrpH83IiatQk3lXUnkAGaGkdZP/pKmH3vGcofDaqHyt1TDp\n5yRyXygGhFThDRXFxm1UQS+A9sZ4qYlf05nqVMXBNA==\n"
+}

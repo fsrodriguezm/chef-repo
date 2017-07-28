@@ -1,0 +1,10 @@
+{
+  "id": "user1",
+  "password": {
+    "encrypted_data": "1h3n9ZZr+3Q8uJDQL+VFkbob4fjrHJlucq2F27B54ZAa898z35HD5bLJFhFU\nQuzoQ0U=\n",
+    "iv": "kirizQ+a5YEuDqO7\n",
+    "auth_tag": "Lu4BbVXpG+c14JjbDSmrrg==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}
