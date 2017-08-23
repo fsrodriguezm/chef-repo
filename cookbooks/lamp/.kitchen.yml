@@ -1,0 +1,32 @@
+driver:
+  name: ec2
+  aws_ssh_key_id: jenkins-training-felipe
+  region: us-east-1
+  availability_zone: d
+  subnet_id: subnet-36af0541
+  instance_type: t2.micro
+  image_id: ami-cd0f5cb6
+  security_group_ids: sg-c443e9b5
+  retryable_tries: 120
+
+provisioner:
+  name: chef_zero
+
+verifier:
+  name: inspec
+
+transport:
+  ssh_key: /root/.ssh/jenkins-training-felipe.pem
+
+platforms:
+  - name: ubuntu
+
+suites:
+  - name: kitchen
+    data_bags_path: test/fixtures/default/data_bags
+    run_list:
+      - recipe[lamp]
+    verifier:
+      inspec_tests:
+      - test/smoke/default
+    attributes:
